@@ -50,7 +50,7 @@ const TributeSection = () => {
 
             {/* Joyce & Robert */}
             <div className="flex flex-col items-center justify-center gap-6 pt-8 border-t border-border/50">
-              <div className="w-[340px] h-[340px] md:w-[420px] md:h-[420px] rounded-full overflow-hidden flex-shrink-0">
+              <div className="w-[300px] h-[300px] md:w-[380px] md:h-[380px] rounded-full overflow-hidden flex-shrink-0">
                 <img
                   src={partnersLatest}
                   alt="Joyce Coffee & Robert Macnee"

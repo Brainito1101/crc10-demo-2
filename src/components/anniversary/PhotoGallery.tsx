@@ -72,7 +72,7 @@ const PhotoGallery = () => {
               <img
                 src={image.src}
                 alt={image.label}
-                className="w-full h-auto transform transition-transform duration-500 ease-in-out"
+                className="w-full h-auto transform transition-transform duration-500 ease-in-out hover:scale-105"
                 loading="lazy"
               />
             </motion.div>
