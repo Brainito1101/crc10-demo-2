@@ -31,13 +31,13 @@ const Index = () => {
         {/* Carousel Section */}
         <CarouselSection />
 
-        {/* Photo Gallery / Memories */}
-        <PhotoGallery />
-
         {/* Resources */}
         <section id="resources">
           <ResourcesSection />
         </section>
+
+        {/* Photo Gallery / Memories */}
+        <PhotoGallery />
 
         {/* Tribute / Message Section */}
         <TributeSection />

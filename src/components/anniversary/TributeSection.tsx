@@ -39,9 +39,9 @@ const TributeSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-card rounded-3xl p-8 md:p-12 shadow-crc-md border border-border/50"
+            className="bg-card rounded-3xl p-6 md:p-12 shadow-crc-md border border-border/50"
           >
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-10 text-center font-normal font-sans">
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 text-center font-normal font-sans">
               "To the city managers who took a chance on a new approach. To the community leaders who
               shared their stories and trusted us with their vision. To the funders who saw potential
               before it had a name. To every partner, collaborator, and champion who believed
@@ -49,20 +49,14 @@ const TributeSection = () => {
             </p>
 
             {/* Joyce & Robert */}
-            <div className="flex flex-col items-center justify-center gap-6 pt-8 border-t border-border/50">
-              <div className="w-[300px] h-[300px] md:w-[380px] md:h-[380px] rounded-full overflow-hidden flex-shrink-0">
-                <img
-                  src={partnersLatest}
-                  alt="Joyce Coffee & Robert Macnee"
-                  className="w-full h-full object-cover object-top"
-                />
-              </div>
+            <div className="flex flex-col items-center justify-center gap-6 pt-2 border-t border-border/50">
+
 
               <div className="text-center">
                 <p className="text-base text-muted-foreground italic mb-2">
                   Thank you for advancing resilience with us,
                 </p>
-                <p className="text-xl font-bold text-foreground">Joyce Coffee & Robert Macnee</p>
+                <p className="text-xl font-bold text-foreground">Joyce Coffee & Robert Macnee, PhD</p>
                 <p className="text-crc-blue font-medium">
                   Climate Resilience Consulting
                 </p>
