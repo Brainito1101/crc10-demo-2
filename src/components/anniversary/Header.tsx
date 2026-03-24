@@ -105,7 +105,7 @@ const Header = () => {
 
             {/* Contact Button Desktop */}
             <Button className="hidden xl:flex bg-[#FFB800] hover:bg-[#e6a600] text-black font-normal rounded-full px-7 py-5 h-auto text-[15px] transition-colors" asChild>
-              <a href="https://www.climateresilienceconsulting.com/contact">Contact</a>
+              <a href="https://contactus.climateresilienceconsulting.com/">Contact</a>
             </Button>
 
             {/* Mobile Menu Button */}
